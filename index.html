@@ -1,0 +1,35 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Conway's Game of Life</title>
+
+  <link rel="stylesheet" href="libraries/bootstrap.min.css">
+  <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+  <h2>Conway's Game of Life</h2>
+  <h3>Select cells to create your own board <i>or</i> generate a random board!</h3>
+  <table id='board'></table>
+  
+  <div id='control_panel'>
+    <button id='play_btn' class='btn btn-success'>Play</button>
+    <button id='step_btn' class='btn btn-primary'>Step</button>
+    <button id='reset_btn' class='btn btn-warning'>Generate Random</button>
+    <button id='clear_btn' class='btn btn-info'>Clear</button>
+  </div>
+  
+  <br><br>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="text-muted">Built by Katy Ma at <a href="http://www.fullstackacademy.com/">Fullstack Academy</a></p>
+    </div>
+  </footer>
+  
+  <script src="game.js"></script>
+  
+</body>
+</html>

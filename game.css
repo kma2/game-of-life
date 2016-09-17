@@ -1,0 +1,46 @@
+body {
+  padding: 10px;
+  padding-top: 30px;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  font-family: 'Helvetica', 'sans-serif';
+  color: #3f3f3f;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+
+#board {
+  margin: 0 auto;
+}
+
+#board td {
+  border: 1px solid #ddd;
+  width: 6px;
+  height: 6px;
+}
+
+td.alive {
+  background-color: #A6D785;
+}
+
+td.dead {
+  background-color: #fff;
+}
+
+#control_panel {
+  margin: 10px auto;
+  text-align: center;
+}
+
+.text-muted {
+  text-align: center;
+}
